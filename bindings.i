@@ -201,3 +201,7 @@ extern int pcf8591Setup (const int pinBase, const int i2cAddress) ;
 
 // Header file WiringPi/wiringPi/mcp4802.h
 extern int mcp4802Setup (int pinBase, int spiChannel) ;
+
+// Header file WiringPi/wiringPi/wiringShift.h
+extern uint8_t shiftIn      (uint8_t dPin, uint8_t cPin, uint8_t order) ;
+extern void    shiftOut     (uint8_t dPin, uint8_t cPin, uint8_t order, uint8_t val) ;

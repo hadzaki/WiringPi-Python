@@ -41,6 +41,7 @@
 #include "WiringPi/wiringPi/max31855.h"
 #include "WiringPi/wiringPi/pcf8591.h"
 #include "WiringPi/wiringPi/mcp4802.h"
+#include "WiringPi/wiringPi/wiringShift.h"
 %}
 
 %apply unsigned char { uint8_t };
