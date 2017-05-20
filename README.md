@@ -1,25 +1,8 @@
-#WiringPi for Python
-
-WiringPi: An implementation of most of the Arduino Wiring
-	functions for the Raspberry Pi
-
-WiringPi implements new functions for managing IO expanders.
-
-#Quick Build
-
-A quick and dirty build script is supplied to install WiringPi-Python for Python 2 and 3. Just:
-
-```
-git clone --recursive https://github.com/WiringPi/WiringPi-Python.git
-cd WiringPi-Python
-./build.sh
-```
-
 #Manual Build
 
 ##Get/setup repo
 ```bash
-git clone --recursive https://github.com/WiringPi/WiringPi-Python.git
+git clone --recursive https://github.com/....../WiringPi-Python.git
 cd WiringPi-Python
 git submodule update --init
 ```
