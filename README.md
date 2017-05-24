@@ -2,7 +2,7 @@
 
 ##Get/setup repo
 ```bash
-git clone --recursive https://github.com/....../WiringPi-Python.git
+git clone --recursive https://github.com/hadzaki/WiringPi-Python.git
 cd WiringPi-Python
 git submodule update --init
 ```
