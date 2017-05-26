@@ -25,3 +25,7 @@ root@orangepipc2:/root/WiringPi-Python/WiringPi/gpio# gpio readall
  +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
  | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
  +-----+-----+----------+------+---+-Orange Pi+---+------+----------+-----+-----+
+ 
+ 
+ 
+ wPi ----->> wiringPiSetup()
