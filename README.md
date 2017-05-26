@@ -21,6 +21,7 @@ sudo ./build
 ```
 
 ##Generate Bindings
+cd ..
 
 Return to the root directory of the repository and:
 
