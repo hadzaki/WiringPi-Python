@@ -43,7 +43,7 @@ Or Python 3:
 
 	import wiringpi
 	
-	wiringpi.wiringPiSetup() # For sequential pin numbering, one of these MUST be called before using IO functions
+	wiringpi.wiringPiSetup() # <<<wPI>>> For sequential pin numbering, one of these MUST be called before using IO functions
 	# OR
 	wiringpi.wiringPiSetupSys() # For /sys/class/gpio with GPIO pin numbering
 	# OR
